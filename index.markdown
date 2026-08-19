@@ -3,10 +3,25 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 ---
-layout: home
+layout: default
 ---
 
-### Добро пожаловать на мой сайт!
+<div class="home">
+  <h1 class="page-heading">Мои публикации</h1>
 
-Это моя первая страница, которую я настроил прямо с работы. Здесь я буду делиться своими мыслями, заметками и полезными материалами. 
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
 
