@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://psholna.github.io/psholna/drugaya-tema.html",
+            "url": "https://psholna.github.io/psholna/drugaya-tema.html",
+            "title": "другая тема",
+            "summary": "О чем эта тем, да ни очем.",
+            "content_html": "<p>О чем эта тем, да ни очем.</p>",
+            "author": {
+                "name": "psholna"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-08-20T22:47:21+03:00",
+            "date_modified": "2026-08-20T22:49:46+03:00"
+        },
+        {
             "id": "https://psholna.github.io/psholna/privet.html",
             "url": "https://psholna.github.io/psholna/privet.html",
             "title": "Привет",

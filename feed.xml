@@ -3,12 +3,32 @@
     <title>test2</title>
     <link href="https://psholna.github.io/psholna/feed.xml" rel="self" />
     <link href="https://psholna.github.io/psholna" />
-    <updated>2026-08-20T21:18:18+03:00</updated>
+    <updated>2026-08-20T22:49:46+03:00</updated>
     <author>
         <name>psholna</name>
     </author>
     <id>https://psholna.github.io/psholna</id>
 
+    <entry>
+        <title>другая тема</title>
+        <author>
+            <name>psholna</name>
+        </author>
+        <link href="https://psholna.github.io/psholna/drugaya-tema.html"/>
+        <id>https://psholna.github.io/psholna/drugaya-tema.html</id>
+
+        <updated>2026-08-20T22:47:21+03:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    О чем эта тем, да ни очем.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>О чем эта тем, да ни очем.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Привет</title>
         <author>
