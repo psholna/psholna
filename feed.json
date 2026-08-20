@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "test2",
+    "description": "",
+    "home_page_url": "https://psholna.github.io/psholna",
+    "feed_url": "https://psholna.github.io/psholna/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "psholna"
+    },
+    "items": [
+        {
+            "id": "https://psholna.github.io/psholna/privet.html",
+            "url": "https://psholna.github.io/psholna/privet.html",
+            "title": "Привет",
+            "summary": "Это не электробус.",
+            "content_html": "<p>Это не электробус.</p>",
+            "author": {
+                "name": "psholna"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-08-20T21:18:18+03:00",
+            "date_modified": "2026-08-20T21:18:18+03:00"
+        }
+    ]
+}

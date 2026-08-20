@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>test2</title>
+    <link href="https://psholna.github.io/psholna/feed.xml" rel="self" />
+    <link href="https://psholna.github.io/psholna" />
+    <updated>2026-08-20T21:18:18+03:00</updated>
+    <author>
+        <name>psholna</name>
+    </author>
+    <id>https://psholna.github.io/psholna</id>
+
+    <entry>
+        <title>Привет</title>
+        <author>
+            <name>psholna</name>
+        </author>
+        <link href="https://psholna.github.io/psholna/privet.html"/>
+        <id>https://psholna.github.io/psholna/privet.html</id>
+
+        <updated>2026-08-20T21:18:18+03:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Это не электробус.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Это не электробус.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
